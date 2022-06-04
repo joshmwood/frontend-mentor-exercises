@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="reset.css">  
+  <link rel="stylesheet" href="style.css">  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Expenses chart component</title>
+</head>
+<body>
+
+  <div class="content">
+  <div class="balance">
+    <div class="balance--info">
+      <h1>My balance</h1>
+      <p class="money">$921.48<p>
+    </div>
+    <img src="/images/logo.svg">
+
+  </div>
+  <div class="spending">
+    <h2>
+      Spending - Last 7 days
+    </h2>
+    <div class="chart">
+
+      <div class="chart--data" id="mon"><div class="bar"></div><p>mon</p></div>
+      <div class="chart--data" id="tue"><div class="bar"></div><p>tue</p></div>
+      <div class="chart--data" id="wed"><div class="bar bar__red"></div><p>wed</p></div>
+      <div class="chart--data" id="thu"><div class="bar"></div><p>thu</p></div>
+      <div class="chart--data" id="fri"><div class="bar"></div><p>fri</p></div>
+      <div class="chart--data" id="sat"><div class="bar"></div><p>sat</p></div>
+      <div class="chart--data" id="sun"><div class="bar"></div><p>sun</p></div>
+    </div>
+    <hr class="spending--hr">
+    <div class="spending--total">
+      <div class="spending--total-value">
+        <h3>Total this month</h3>
+        <p>$478.33</p>
+      </div>
+      <div class="spending--total-change">
+        <p class="spending--total-change-value">+2.4%</p>
+        <p class="spending--total-change-time">from last month</p>
+      </div>
+    </div>
+
+
+  </div>
+</div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/joshmwood">Joshua Wood</a>.
+  </div>
+</body>
+</html>

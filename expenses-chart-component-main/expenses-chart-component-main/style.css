@@ -1,0 +1,147 @@
+:root {
+    --main: hsl(10, 79%, 65%);
+    --secondary: hsl(186, 34%, 60%);
+    --bg: hsl(27, 66%, 92%);
+    --light: hsl(33, 100%, 98%);
+    --dark: hsl(25, 47%, 15%);
+    --light-text: hsl(28, 10%, 53%);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.attribution {
+    margin-top: 15px;
+    color: var(--dark);
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+body {
+    background-color: var(--bg);
+    font-family: 'DM Sans', sans-serif;
+    color: var(--light);
+    font-size: 18px;
+    font-weight: 400;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.balance {
+    background-color: var(--main);
+    padding: 20px 20px 25px 20px;
+    border-radius: 12px;
+    width: 350px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.balance h1 {
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.money {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.spending {
+    background-color: var(--light);
+    color: var(--dark);
+    width: 350px;
+    margin: 0 auto;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.spending h2 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+
+.chart {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    font-size: 12px;
+    color: hsl(28, 10%, 53%);
+    margin-bottom: 25px;
+    height: 200px;
+}
+
+.chart--data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.chart--data p {
+    margin-top: 15px;
+}
+
+.bar {
+    height: 100px;
+    width: 35px;
+    border-radius: 4px;
+    background-color: var(--secondary);
+}
+
+.bar__red {
+    background-color: var(--main);
+}
+
+.spending--hr {
+    height: 2px;
+    background-color: var(--bg);
+    border: none;
+}
+
+.spending--total {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.spending--total-value h3 {
+    font-size: 16px;
+    color: var(--light-text);
+    margin-bottom: 10px;
+}
+
+.spending--total-value p {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.spending--total-change {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+
+.spending--total-change-value {
+    color: var(--dark);
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.spending--total-change-time {
+    color: var(--light-text);
+    font-size: 16px;
+}
