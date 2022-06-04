@@ -103,6 +103,10 @@ body {
     background-color: var(--main);
 }
 
+.bar__blue {
+    background-color: var(--secondary);
+}
+
 .spending--hr {
     height: 2px;
     background-color: var(--bg);
