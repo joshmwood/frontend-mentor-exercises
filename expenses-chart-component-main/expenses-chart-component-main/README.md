@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/joshmwood/frontend-mentor-exercises/tree/main/expenses-chart-component-main/expenses-chart-component-main)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub Repo](https://github.com/joshmwood/frontend-mentor-exercises/tree/main/expenses-chart-component-main/expenses-chart-component-main)
+- Live Site URL: [GitHub Pages](https://joshmwood.github.io/frontend-mentor-exercises/expenses-chart-component-main/expenses-chart-component-main/)
 
 ## My process
 
