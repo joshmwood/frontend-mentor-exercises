@@ -1,6 +1,6 @@
 async function fillChart() {
 
-    fetch("data.json")
+    fetch("https://joshmwood.github.io/frontend-mentor-exercises/expenses-chart-component-main/expenses-chart-component-main/data.json")
         .then(res => res.json())
         .then(data => {
             console.log(data)
