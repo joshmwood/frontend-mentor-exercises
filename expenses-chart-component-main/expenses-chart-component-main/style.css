@@ -140,6 +140,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
+
 }
 
 .chart--data p {
@@ -164,8 +166,37 @@ body {
     background-color: var(--main);
 }
 
+.bar__red:hover {
+    background-color: #ff9b87;
+    cursor: pointer;
+}
+
+
 .bar__blue {
     background-color: var(--secondary);
+}
+
+.bar__blue:hover {
+    background-color: #b4dfe5;
+    cursor: pointer;
+}
+
+.chart--spending-amount {
+    background-color: var(--dark);
+    border-radius: 5px;
+    color: var(--light);
+    padding: 8px 12px;
+    position: absolute;
+    box-sizing: content-box;
+    top: -40px;
+}
+
+.chart--spending-amount__hidden {
+    display: none;
+}
+
+.chart--spending-amount__show {
+    display: block;
 }
 
 .spending--hr {
