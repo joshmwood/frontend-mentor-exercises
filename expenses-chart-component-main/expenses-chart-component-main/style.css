@@ -46,14 +46,45 @@ body {
     justify-content: space-between;
 }
 
+
+@media screen and (min-width: 750px) {
+    .balance {
+        padding: 25px 40px 25px 40px;
+        margin-bottom: 25px;
+    }
+}
+
+
 .balance h1 {
     margin-bottom: 10px;
     font-size: 15px;
 }
 
+@media screen and (min-width: 750px) {
+    .balance h1 {
+        font-size: 18px
+    }
+
+}
+
 .money {
     font-size: 24px;
     font-weight: 700;
+}
+
+@media screen and (min-width: 750px) {
+
+    .money {
+        font-size: 30px;
+    }
+
+}
+
+@media screen and (min-width: 750px) {
+
+    .balance {
+        width: 550px;
+    }
 }
 
 .spending {
@@ -65,12 +96,29 @@ body {
     padding: 20px;
 }
 
+@media screen and (min-width: 750px) {
+
+    .spending {
+        width: 550px;
+        padding: 40px;
+    }
+}
+
 .spending h2 {
     font-size: 24px;
     font-weight: 700;
     margin-bottom: 25px;
     margin-top: 10px;
 }
+
+@media screen and (min-width: 750px) {
+
+    .spending h2 {
+        font-size: 32px;
+        margin-top: 0px;
+    }
+}
+
 
 .chart {
     display: flex;
@@ -80,6 +128,12 @@ body {
     color: hsl(28, 10%, 53%);
     margin-bottom: 25px;
     height: 200px;
+}
+
+@media screen and (min-width: 750px) {
+    .chart {
+        font-size: 16px;
+    }
 }
 
 .chart--data {
@@ -97,6 +151,13 @@ body {
     width: 35px;
     border-radius: 4px;
     background-color: var(--secondary);
+}
+
+@media screen and (min-width: 750px) {
+    .bar {
+        width: 50px
+    }
+
 }
 
 .bar__red {
@@ -126,9 +187,23 @@ body {
     margin-bottom: 10px;
 }
 
+@media screen and (min-width: 750px) {
+    .spending--total-value h3 {
+        font-size: 18px;
+    }
+}
+
 .spending--total-value p {
     font-size: 30px;
     font-weight: 700;
+}
+
+@media screen and (min-width: 750px) {
+
+    .spending--total-value p {
+        font-size: 42px;
+    }
+
 }
 
 .spending--total-change {
@@ -148,4 +223,15 @@ body {
 .spending--total-change-time {
     color: var(--light-text);
     font-size: 16px;
+}
+
+@media screen and (min-width: 750px) {
+    .spending--total-change-value {
+        font-size: 18px;
+    }
+
+    .spending--total-change-time {
+        color: var(--light-text);
+        font-size: 18px;
+    }
 }
